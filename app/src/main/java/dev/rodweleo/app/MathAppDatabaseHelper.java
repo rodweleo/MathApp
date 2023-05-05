@@ -17,7 +17,7 @@ public class MathAppDatabaseHelper extends SQLiteOpenHelper {
     private static final int db_version = 1;
 
 
-    public MathAppDatabaseHelper(@Nullable Context context) {
+    public MathAppDatabaseHelper( Context context) {
         super(context, db_name, null, db_version);
     }
 

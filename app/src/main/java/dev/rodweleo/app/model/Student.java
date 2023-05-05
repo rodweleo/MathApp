@@ -1,6 +1,8 @@
 package dev.rodweleo.app.model;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable {
     private int id;
     private String username;
     private String password;
